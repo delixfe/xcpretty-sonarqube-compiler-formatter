@@ -8,11 +8,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Felix Deierlein"]
   spec.email         = ["felix.deierlein@bit.admin.ch"]
 
-  spec.summary       = "xcpretty custom formatter for writing compiler warnings into SonarQubes generic issue import format"
+  spec.summary       = "xcpretty custom formatter for writing compiler warnings " \
+                       " into SonarQubes generic issue import format"
   # spec.description   = "TODO: Write a longer description or delete this line."
   spec.homepage      = "https://github.com/delixfe/xcpretty-sonarqube-compiler-formatter"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
